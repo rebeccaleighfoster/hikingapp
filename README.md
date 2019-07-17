@@ -10,6 +10,7 @@ No additional installation is necessary to work with this project. It simply req
 Technologies
 HTML, CSS, JavaScript, jQuery This app utilizes a combination of the above four languages to call the OpenWeather API.
 
+Screenshot
 https://github.com/rebeccaleighfoster/hikingapp/issues/1
 
 Summary
