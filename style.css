@@ -1,0 +1,92 @@
+body, html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+   }
+  
+  .hidden{
+    display:none;
+  }
+  
+  
+  #submitButton {
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  #submitButton:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .results{
+    background-color: rgb(240,248,255, .6);
+    padding: 5%;
+    text-align: center;
+    margin: 5%;
+    border-radius: 25px;
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+  body {
+    background-image: url("https://i.imgsafe.org/f5/f5b9b090ab.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    text-align:center;
+    line-height: 150%;
+    font-size: 18px;
+  }
+  
+  h1 {
+    line-height: 120%;
+  }
+  .container{
+    align-items: container;
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  }
+  
+  @media only screen and (min-width: 800px){
+   body {
+    background-image: url("http://www.osprey.com/stories/wp-content/uploads/2010/09/IMG_2444.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    text-align:center;
+    line-height: 150%;
+    font-size: 18px;
+  }
+  
+  .heading{
+    background-color: rgb(240,248,255, .7);
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    width: 45%;
+    display: inline-block;
+    line-height: 150%;
+  }
+  
+  .results{
+    font-size: 30px;
+  }
+  
+  }
