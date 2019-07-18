@@ -69,6 +69,9 @@ function watchForm() {
     console.log('watchForm Is Working');
     event.preventDefault();
     const zipCode = $('#js-zipCode').val();
+    if (zipCode.trim() === "") {
+      alert("Please enter a zip code!");
+  }
     getData(zipCode);
   });
 }
