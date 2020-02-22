@@ -1,0 +1,99 @@
+body, html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+   }
+  
+  .hidden{
+    display:none;
+  }
+  
+  
+  #submitButton {
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  #submitButton:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .results{
+    background-color: rgb(240,248,255, .6);
+    padding: 5%;
+    text-align: center;
+    margin: 5%;
+    border-radius: 25px;
+  }
+  
+  .heading{
+    background-color: rgb(240,248,255, .7);
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    /* width: 45%; */
+    display: inline-block; 
+    line-height: 150%;
+  }
+  
+  @media only screen and (max-width: 800px) {
+  body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5a87961cbe42d637c54cab93/1535038138213-MCJ3E0RUHAKB192II2UI/ke17ZwdGBToddI8pDm48kN5krWEhV78lvJ_TRla4yYQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2zLurNxEa9MLS9lV0wNQgK0YIzZD5uHxYVqxgBYcaImebtxPRH917Fz9Qv_NunPol/tatacoa+desert+hike+guide+by+laidbacktrip+%7C+hiking+in+tatacoa+red+desert%2C+colombia");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 163, 133);
+    text-align:center;
+    line-height: 150%;
+    font-size: 18px;
+  }
+
+  
+  
+  h1 {
+    line-height: 120%;
+  }
+  .container{
+    align-items: container;
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  }
+  
+  @media only screen and (min-width: 800px){
+   body {
+    background-image: url("https://www.osprey.com/stories/wp-content/uploads/2010/09/IMG_2444.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    text-align:center;
+    line-height: 150%;
+    font-size: 18px;
+  }
+  
+
+  .heading{
+    width: 45%;
+  }
+  
+  
+  .results{
+    font-size: 30px;
+  }
+  
+  }

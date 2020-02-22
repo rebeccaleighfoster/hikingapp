@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>HikingApp</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
   </head>
   <body>
    <body>
     <div class="container">
-      <h2>What should I wear on my hike today?</h2>
-
-      <form id="js-form">
-        <label for="zipCode">Enter the zipcode you are hiking in today</label>
+      <div class="heading">
+      <h1>What should I wear on my hike today?</h1>
+      <form id="js-form" role="form">
+        <p class="description"> An app that gives real time, location sensitive gear advice for day hikers</p>
+        <label for="zipCode"><em>Enter the zip code you are hiking in today:</em></label>
         <input type="text" name="search-zip" id="js-zipCode" required>
         <br>
-        <input type="submit" value="submit!">
+        <input type="submit" aria-label="submit" id="submitButton" role="button" value="Let's hike!">
       </form>
+      </div>
 
-      
-
-      <section class="results">
-        <div id="js-search-results">
-        </div>
-        <p id="js-error-message" class="error-message"></p>
+      <section class="results hidden">
+        <div id="js-search-results"> </div>
+        <p> Now you are all ready for your hike. Remember to have fun! </p>
       </section>
+       <p class="js-error-message" style="background-color: #FFC0CB"></p>
     </div>
     <script src="script.js"></script>
   </body>
 </html>
-  </body>
-</html>
+  
